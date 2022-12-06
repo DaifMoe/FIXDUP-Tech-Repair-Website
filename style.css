@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: poppins;
+    margin-left: 1px;
+}
+.product_wrapper1{
+    float:left;
+	padding: 70px;
+	text-align: center;
+    box-sizing: border-box;
+
+}
+
+.product_wrapper {
+	float:left;
+	padding: 80px;
+	text-align: center;
+    box-sizing: border-box;
+	}
+.product_wrapper:hover {
+	box-shadow: 0 0 0 2px #e5e5e5;
+    background-color: #e5e5e5;
+	cursor:pointer;
+	}
+.product_wrapper1:hover {
+        box-shadow: 0 0 0 2px #e5e5e5;
+        background-color: #e5e5e5;
+        cursor:pointer;
+        }
+.product_wrapper .name {
+	font-weight:bold;
+	}
+    .product_wrapper1 .name {
+        font-weight:bold;
+        }
+.product_wrapper .image img{
+    width: 210px;
+    height: 210px;
+    transition: width 4s ease-in-out;
+    padding-bottom: 20px;
+}
+.product_wrapper .image:hover img{
+    transform: scale(1.1);
+}
+.product_wrapper .buy {
+	text-transform: uppercase;
+    background: #F68B1E;
+    border: 1px solid #F68B1E;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.product_wrapper .buy:hover {
+	background: #f17e0a;
+    border-color: #f17e0a;
+}
+.product_wrapper1 .buy1 {
+	text-transform: uppercase;
+    background: #F68B1E;
+    border: 1px solid #F68B1E;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.product_wrapper1 .buy1:hover {
+	background: #f17e0a;
+    border-color: #f17e0a;
+}
+
+.message_box .box{
+	margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+	}
+.table td {
+	border-bottom: #F0F0F0 1px solid;
+	padding: 10px;
+	}
+.cart_div {
+	float:right;
+	font-weight:bold;
+	position:relative;
+	}
+.cart_div a {
+	color:#000;
+	}	
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: -1px;
+    left: 13px;
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+	}
+.cart .remove:hover {
+	text-decoration:underline;
+	}
+.mobiles{
+    font-family: poppins;
+    text-align: center;
+    padding-left: 40px;
+    font-weight: 600;
+}
+.laptops{
+    font-family: poppins;
+    text-align: center;
+    padding-left: 40px;
+    font-weight: 600;
+}
+.product_wrapper .image1 img{
+    width: 210px;
+    height: 210px;
+    transition: width 4s ease-in-out;
+    padding-bottom: 20px;
+}
+.product_wrapper .image1:hover img{
+    transform: scale(1.1);
+}
+.product_wrapper1 .image2 img{
+    width:210px;
+    height: 210px;
+    padding-left: -30px;
+    transition: width 4s ease-in-out;
+    padding-bottom: 20px;
+}
+.product_wrapper .image1:hover img{
+    transform: scale(1.1);
+}
+.product_wrapper .buy1 {
+	text-transform: uppercase;
+    background: #F68B1E;
+    border: 1px solid #F68B1E;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: poppins;
+}
+.headder{
+    background-color: rgb(61,82,191);
+    width: 100%;
+    height: 100px;
+}
+.logo h2{
+    color: rgb(255, 217, 0); 
+    /* 63,255,0 */
+    padding-left: 20px;
+    padding-top: 8px;
+    font-size: 50px;
+}
+.navbar ul{
+    list-style: none;
+    display:inline-flex;
+    float: right;
+    margin-top: -52px;
+    margin-right: 2%;
+    font-size: 20px;
+
+}
+.navbar li{
+    padding: 10px 25px;
+    font-weight: 500;
+
+
+}
+.navbar li a{
+    color:white;
+
+}
+.cart img{
+    height: 40px;
+    width: 40px;
+    fill: white;
+}

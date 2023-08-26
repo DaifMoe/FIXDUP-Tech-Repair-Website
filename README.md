@@ -1,6 +1,6 @@
 # FIXDUP Tech & Repair Website
 This is a website built in HTML, JS, PHP, and CSS. 
-It is one of the first websites I ever built as a full-stack developer.
+It is one of the first websites I ever worked on as a full-stack developer.
 It is an online e-commerce website for selling tech goods both new and used.
 It features a catalog of phones, tablets, laptops, and other wearable technology. 
 It also features a Home page, a Get Quote Page for broken electronics you wish to get fixed,
